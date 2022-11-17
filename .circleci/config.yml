@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Library Installaion"
-          command: "pip install -r ./requirements.txt"
+          command: "pip install -r ./requirments.txt"
       - run:
           name: "Run Test Cases"
           command: "pytest test_main.py"
