@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Library Installaion"
-          command: "pip list && pip install fastapi && pip install httpx &&  pip install pytest"
+          command: "pip list && pip install fastapi && pip install httpx &&  pip install pytest && ls"
       - run:
           name: "Run Test Cases"
           command: "pytest"
