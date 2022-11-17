@@ -17,6 +17,9 @@ jobs:
       - run:
           name: "Say hello"
           command: "pip list && pip install fastapi && pip install httpx"
+      - run:
+          name: "Run Test Cases"
+          command: "pytest"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
