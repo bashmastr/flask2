@@ -15,8 +15,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello"
-          command: "pip list && pip install fastapi && pip install httpx"
+          name: "Library Installaion"
+          command: "pip list && pip install fastapi && pip install httpx &&  pip install pytest"
       - run:
           name: "Run Test Cases"
           command: "pytest"
