@@ -19,7 +19,7 @@ jobs:
           command: "pip list && pip install fastapi && pip install httpx &&  pip install pytest && ls"
       - run:
           name: "Run Test Cases"
-          command: "pytest"
+          command: "pytest test_main.py"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
