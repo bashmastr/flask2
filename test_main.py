@@ -13,4 +13,4 @@ def test_read_main():
 def test_read_main2():
     response = client.get("/username")
     assert response.status_code == 200
-    assert response.json()["msg"] == "Helloe Basshir"
+    assert response.json()["msg"] == "first test"
