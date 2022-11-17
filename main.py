@@ -9,4 +9,4 @@ async def read_main():
 
 @app.get("/username")
 async def read_main():
-    return {"msg": f"firsst test"}
+    return {"msg": f"first test"}
